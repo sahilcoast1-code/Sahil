@@ -3,14 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sahil Coast | Wear the Vibe. Own the Moment.</title>
+<title>SAHIL COAST | Wear the Vibe. Own the Moment.</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial, sans-serif;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
 }
 
 body{
@@ -26,16 +28,17 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-url('https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1400&q=80');
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1600&q=80');
 background-size:cover;
 background-position:center;
 }
 
 .logo{
-font-size:4rem;
+font-size:4.5rem;
 font-weight:900;
-letter-spacing:4px;
+letter-spacing:5px;
 }
 
 .slogan{
@@ -44,10 +47,17 @@ font-size:1.3rem;
 opacity:.9;
 }
 
+.arabic{
+margin-top:10px;
+font-size:1rem;
+opacity:.8;
+direction:rtl;
+}
+
 .btn{
 display:inline-block;
 margin-top:30px;
-padding:14px 35px;
+padding:15px 40px;
 background:white;
 color:black;
 text-decoration:none;
@@ -57,7 +67,7 @@ transition:.3s;
 }
 
 .btn:hover{
-transform:translateY(-3px);
+transform:translateY(-4px);
 }
 
 section{
@@ -66,13 +76,13 @@ padding:80px 8%;
 
 .section-title{
 font-size:2.5rem;
-margin-bottom:40px;
 text-align:center;
+margin-bottom:40px;
 }
 
 .products{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:25px;
 }
 
@@ -97,36 +107,37 @@ object-fit:cover;
 padding:20px;
 }
 
-.card h3{
-margin-bottom:10px;
+.price{
+margin-top:10px;
+font-size:1.1rem;
+font-weight:bold;
 }
 
 .about{
-max-width:800px;
+max-width:900px;
 margin:auto;
 text-align:center;
 line-height:1.8;
-font-size:1.1rem;
-color:#d7d7d7;
+color:#d6d6d6;
 }
 
 .info{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
-text-align:center;
 }
 
 .box{
 background:#151515;
 padding:25px;
 border-radius:15px;
+text-align:center;
 }
 
 footer{
-text-align:center;
-padding:30px;
 background:#111;
+padding:35px;
+text-align:center;
 color:#aaa;
 }
 
@@ -137,72 +148,132 @@ font-weight:bold;
 }
 
 @media(max-width:768px){
+
 .logo{
-font-size:2.8rem;
+font-size:3rem;
 }
+
+.section-title{
+font-size:2rem;
 }
+
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<h1 class="logo">SAHIL COAST</h1>
-<p class="slogan">Wear the Vibe. Own the Moment.</p>
 
-<a class="btn" href="https://instagram.com/" target="_blank">
+<h1 class="logo">SAHIL COAST</h1>
+
+<p class="slogan">
+Wear the Vibe. Own the Moment.
+</p>
+
+<p class="arabic">
+ارتدِ الإحساس. امتلك اللحظة.
+</p>
+
+<a class="btn"
+href="https://instagram.com/sahilcoast1"
+target="_blank">
 Order Now
 </a>
+
 </header>
 
 <section>
-<h2 class="section-title">Featured Collection</h2>
+
+<h2 class="section-title">
+Featured Collection
+</h2>
 
 <div class="products">
-
-<div class="card">
+  <div class="card">
 <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1000&q=80">
 <div class="card-content">
-<h3>Classic Tee</h3>
-<p>Minimal streetwear design inspired by coastal vibes.</p>
+<h3>Sahil Liberty Tee</h3>
+<p class="price">₪89</p>
 </div>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=1000&q=80">
 <div class="card-content">
-<h3>Oversized Collection</h3>
-<p>Premium oversized fit for everyday style.</p>
+<h3>Sahil Bloom Tee</h3>
+<p class="price">₪89</p>
 </div>
 </div>
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80">
 <div class="card-content">
-<h3>Summer Drop</h3>
-<p>Clean, comfortable and made for the season.</p>
+<h3>Sahil LA Set</h3>
+<p class="price">₪120</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=80">
+<div class="card-content">
+<h3>Sahil Midnight Set</h3>
+<p class="price">₪129</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1000&q=80">
+<div class="card-content">
+<h3>Sahil Ice Drift Set</h3>
+<p class="price">₪129</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1000&q=80">
+<div class="card-content">
+<h3>Sahil Shadow Shorts</h3>
+<p class="price">₪69</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506629905607-c53d8e6f8c7f?auto=format&fit=crop&w=1000&q=80">
+<div class="card-content">
+<h3>Sahil Rebel Smoke Shorts</h3>
+<p class="price">₪79</p>
 </div>
 </div>
 
 </div>
-</section>
 
 <section>
-<h2 class="section-title">About Sahil Coast</h2>
+
+<h2 class="section-title">
+About Sahil Coast
+</h2>
 
 <div class="about">
+
 Sahil Coast is a modern streetwear brand built around confidence,
-simplicity and coastal energy. Every piece is designed to help you
-express your style while staying comfortable and authentic.
+simplicity and coastal energy.
 
 <br><br>
 
-Wear the vibe. Own the moment.
-</div>
-</section>
+Wear the Vibe. Own the Moment.
 
-<section>
-<h2 class="section-title">Information</h2>
+<br><br>
+
+ساحل براند ستريت وير عصري مبني على الثقة والبساطة والطاقة المستوحاة من الساحل.
+
+</div>
+  <section>
+
+<h2 class="section-title">
+Information
+</h2>
 
 <div class="info">
 
@@ -218,20 +289,27 @@ Wear the vibe. Own the moment.
 
 <div class="box">
 <h3>Orders</h3>
-<p>DM us on Instagram.</p>
+<p>DM us on Instagram @sahilcoast1</p>
 </div>
 
 </div>
+
 </section>
 
 <footer>
-<p>Sahil Coast © 2026</p>
-<p>
-<a class="instagram" href="https://instagram.com/" target="_blank">
-Instagram
+
+<p>SAHIL COAST © 2026</p>
+
+<p style="margin-top:15px;">
+<a class="instagram"
+href="https://instagram.com/sahilcoast1"
+target="_blank">
+@sahilcoast1
 </a>
 </p>
+
 </footer>
 
 </body>
 </html>
+
