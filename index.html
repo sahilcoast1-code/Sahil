@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sahil Coast | Wear the Vibe. Own the Moment.</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#090909;
+color:white;
+overflow-x:hidden;
+}
+
+
+header{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+
+padding:22px 7%;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+background:rgba(0,0,0,.45);
+
+backdrop-filter:blur(14px);
+
+z-index:999;
+
+}
+
+
+.logo{
+
+font-size:34px;
+font-weight:700;
+letter-spacing:5px;
+
+}
+
+
+.logo span{
+
+color:white;
+
+}
+
+
+nav{
+
+display:flex;
+gap:35px;
+
+}
+
+
+nav a{
+
+color:white;
+text-decoration:none;
+
+}
+
+
+.order-btn{
+
+padding:12px 28px;
+
+background:white;
+
+color:black;
+
+border-radius:40px;
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+
+.hero-video{
+
+position:absolute;
+
+width:100%;
+height:100%;
+
+object-fit:cover;
+
+z-index:-2;
+
+}
+
+
+.overlay{
+
+position:absolute;
+
+width:100%;
+height:100%;
+
+background:rgba(0,0,0,.45);
+
+z-index:-1;
+
+}
+
+
+.hero-content{
+
+text-align:center;
+
+max-width:800px;
+
+padding:20px;
+
+}
+
+
+.hero-content h1{
+
+font-size:70px;
+
+letter-spacing:4px;
+
+}
+
+
+.hero-content h2{
+
+font-size:34px;
+
+color:#d9d9d9;
+
+}
+
+
+.hero-content p{
+
+margin:30px auto;
+
+font-size:18px;
+
+color:#d0d0d0;
+
+}
+
+
+.hero-btn{
+
+display:inline-block;
+
+padding:16px 40px;
+
+background:white;
+
+color:black;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<div class="logo">
+
+SAHIL <span>COAST</span>
+
+</div>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="shop.html">Shop</a>
+
+<a href="collections.html">Collections</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+
+<a class="order-btn" href="shop.html">
+
+Shop Now
+
+</a>
+
+
+</header>
+
+
+<section class="hero">
+
+
+<video autoplay muted loop playsinline class="hero-video">
+
+<source src="watermark.mov" type="video/quicktime">
+
+</video>
+
+
+<div class="overlay"></div>
+
+
+<div class="hero-content">
+
+
+<h1>WEAR THE VIBE.</h1>
+
+<h2>OWN THE MOMENT.</h2>
+
+
+<p>
+Premium Streetwear inspired by the sea.
+Designed for people who create their own style.
+</p>
+
+
+<a href="shop.html" class="hero-btn">
+Explore Collection
+</a>
+
+
+</div>
+
+
+</section>
+<section class="featured">
+
+<h2 class="section-title">
+FEATURED COLLECTION
+</h2>
+
+<p class="section-subtitle">
+Discover our latest streetwear collection inspired by the coast.
+</p>
+
+
+<div class="featured-grid">
+
+
+<div class="featured-card">
+
+
+<div class="badge">
+NEW
+</div>
+
+
+<img src="IMG_0436.jpeg" alt="Simple Joy Tee">
+
+
+<h3>
+Simple Joy Tee
+</h3>
+
+
+<p class="old-price">
+₪200
+</p>
+
+
+<p class="price">
+₪60
+</p>
+
+
+<span class="discount">
+70% OFF
+</span>
+
+
+<a href="product.html" class="view-btn">
+View Product
+</a>
+
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+
+<style>
+
+
+.featured{
+
+padding:100px 8%;
+
+background:#0b0b0b;
+
+}
+
+
+.section-title{
+
+text-align:center;
+
+font-size:42px;
+
+letter-spacing:3px;
+
+margin-bottom:10px;
+
+}
+
+
+.section-subtitle{
+
+text-align:center;
+
+color:#bdbdbd;
+
+margin-bottom:60px;
+
+}
+
+
+.featured-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+
+.featured-card{
+
+background:#151515;
+
+border-radius:20px;
+
+overflow:hidden;
+
+text-align:center;
+
+padding-bottom:25px;
+
+position:relative;
+
+}
+
+
+.featured-card img{
+
+width:100%;
+
+height:380px;
+
+object-fit:cover;
+
+}
+
+
+.badge{
+
+position:absolute;
+
+top:15px;
+
+left:15px;
+
+background:white;
+
+color:black;
+
+padding:8px 14px;
+
+border-radius:30px;
+
+font-size:13px;
+
+font-weight:bold;
+
+}
+
+
+.featured-card h3{
+
+margin-top:20px;
+
+font-size:24px;
+
+}
+
+
+.old-price{
+
+color:#888;
+
+text-decoration:line-through;
+
+font-size:18px;
+
+margin-top:15px;
+
+}
+
+
+.price{
+
+font-size:25px;
+
+font-weight:bold;
+
+margin:10px 0;
+
+}
+
+
+.discount{
+
+display:inline-block;
+
+background:#d10000;
+
+color:white;
+
+padding:7px 14px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+font-size:14px;
+
+margin-bottom:20px;
+
+}
+
+
+.view-btn{
+
+display:block;
+
+width:max-content;
+
+margin:15px auto 0;
+
+padding:12px 28px;
+
+background:white;
+
+color:black;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:bold;
+
+}
+
+
+</style>
+<section class="best-sellers">
+
+<h2 class="section-title">
+BEST SELLERS
+</h2>
+
+
+<div class="best-grid">
+
+
+<div class="best-card">
+
+<span class="number">
+01
+</span>
+
+<h3>
+Simple Joy Tee
+</h3>
+
+<p>
+Premium streetwear t-shirt.
+</p>
+
+<span class="price">
+₪60
+</span>
+
+</div>
+
+
+
+<div class="best-card">
+
+<span class="number">
+02
+</span>
+
+<h3>
+Burgundy LA Set
+</h3>
+
+<p>
+Limited Edition Collection.
+</p>
+
+<span class="price">
+Coming Soon
+</span>
+
+</div>
+
+
+
+<div class="best-card">
+
+<span class="number">
+03
+</span>
+
+<h3>
+Worldwide Flame Set
+</h3>
+
+<p>
+Premium Collection.
+</p>
+
+<span class="price">
+Coming Soon
+</span>
+
+</div>
+
+
+
+<div class="best-card">
+
+<span class="number">
+04
+</span>
+
+<h3>
+Samurai Shadow Tee
+</h3>
+
+<p>
+Streetwear Favorite.
+</p>
+
+<span class="price">
+Coming Soon
+</span>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+<style>
+
+
+.best-sellers{
+
+padding:100px 8%;
+
+background:#080808;
+
+}
+
+
+
+.best-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:25px;
+
+}
+
+
+
+.best-card{
+
+background:#141414;
+
+padding:30px;
+
+border-radius:20px;
+
+transition:.3s;
+
+}
+
+
+
+.best-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+
+
+.number{
+
+font-size:45px;
+
+font-weight:bold;
+
+color:#444;
+
+display:block;
+
+margin-bottom:15px;
+
+}
+
+
+
+.best-card h3{
+
+font-size:24px;
+
+margin-bottom:12px;
+
+}
+
+
+
+.best-card p{
+
+color:#bbb;
+
+margin-bottom:18px;
+
+}
+
+
+.price{
+
+font-size:22px;
+
+font-weight:bold;
+
+}
+
+
+</style>
+<section class="summer">
+
+
+<div class="summer-overlay">
+
+
+<h2>
+SUMMER 2026
+</h2>
+
+
+<p>
+Inspired by the sea.<br>
+Made for the streets.
+</p>
+
+
+<a href="shop.html" class="summer-btn">
+Shop Collection
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<style>
+
+
+.summer{
+
+height:80vh;
+
+background:url("summer.jpg") center/cover no-repeat;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+position:relative;
+
+margin-top:80px;
+
+}
+
+
+
+.summer::before{
+
+content:"";
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+background:rgba(0,0,0,.45);
+
+}
+
+
+
+.summer-overlay{
+
+position:relative;
+
+text-align:center;
+
+z-index:2;
+
+}
+
+
+
+.summer h2{
+
+font-size:70px;
+
+letter-spacing:6px;
+
+}
+
+
+
+.summer p{
+
+font-size:22px;
+
+color:#ddd;
+
+margin:25px 0;
+
+}
+
+
+
+.summer-btn{
+
+display:inline-block;
+
+padding:16px 42px;
+
+background:white;
+
+color:black;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+
+
+/* ABOUT */
+
+
+.about{
+
+padding:120px 8%;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+
+gap:60px;
+
+align-items:center;
+
+background:#0d0d0d;
+
+}
+
+
+
+.about-text h2{
+
+font-size:48px;
+
+margin-bottom:25px;
+
+}
+
+
+
+.about-text p{
+
+font-size:18px;
+
+line-height:1.9;
+
+color:#cfcfcf;
+
+margin-bottom:20px;
+
+}
+
+
+
+.about-btn{
+
+display:inline-block;
+
+padding:15px 35px;
+
+background:white;
+
+color:black;
+
+border-radius:40px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+.about-image img{
+
+width:100%;
+
+border-radius:20px;
+
+}
+
+
+
+</style>
+
+
+
+
+
+<section class="about">
+
+
+<div class="about-text">
+
+
+<h2>
+ABOUT SAHIL COAST
+</h2>
+
+
+<p>
+
+Sahil Coast is more than a clothing brand.
+
+We create premium streetwear inspired by the sea, freedom and confidence.
+
+Every collection is designed to make you stand out while keeping a clean, timeless style.
+
+</p>
+
+
+<p>
+
+Wear the Vibe.<br>
+Own the Moment.
+
+</p>
+
+
+<a href="about.html" class="about-btn">
+Learn More
+</a>
+
+
+</div>
+
+
+
+<div class="about-image">
+
+
+<img src="about.jpg" alt="Sahil Coast">
+
+
+</div>
+
+
+</section>
+<section class="community">
+
+
+<h2>
+JOIN THE SAHIL COMMUNITY
+</h2>
+
+
+<p>
+
+Be the first to know about new drops, limited editions and exclusive offers.
+
+</p>
+
+
+
+<div class="social">
+
+<a href="https://instagram.com/sahilcoast1" target="_blank">
+
+@SahilCoast1
+
+</a>
+
+</div>
+
+
+</section>
+
+
+
+
+<style>
+
+
+.community{
+
+padding:120px 8%;
+
+text-align:center;
+
+background:#080808;
+
+}
+
+
+
+.community h2{
+
+font-size:50px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.community p{
+
+font-size:18px;
+
+color:#cfcfcf;
+
+margin-bottom:40px;
+
+}
+
+
+
+.social a{
+
+color:white;
+
+font-size:22px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+</style>
+
+
+
+
+
+<footer class="footer">
+
+
+<div class="footer-container">
+
+
+
+<div class="footer-logo">
+
+
+<h2>
+SAHIL COAST
+</h2>
+
+
+<p>
+Wear the Vibe. Own the Moment.
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="footer-links">
+
+
+<h3>
+Quick Links
+</h3>
+
+
+<a href="index.html">
+Home
+</a>
+
+
+<a href="shop.html">
+Shop
+</a>
+
+
+<a href="collections.html">
+Collections
+</a>
+
+
+<a href="about.html">
+About
+</a>
+
+
+<a href="contact.html">
+Contact
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="footer-contact">
+
+
+<h3>
+Follow Us
+</h3>
+
+
+<a href="https://instagram.com/sahilcoast1" target="_blank">
+
+Instagram: @sahilcoast1
+
+</a>
+
+
+<p>
+© 2026 Sahil Coast. All Rights Reserved.
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+</footer>
+
+
+
+
+
+<style>
+
+
+.footer{
+
+background:#050505;
+
+padding:70px 8% 30px;
+
+}
+
+
+
+.footer-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:40px;
+
+}
+
+
+
+.footer h2{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.footer h3{
+
+margin-bottom:18px;
+
+}
+
+
+
+.footer a{
+
+display:block;
+
+color:#d0d0d0;
+
+text-decoration:none;
+
+margin-bottom:12px;
+
+}
+
+
+
+.footer p{
+
+color:#bdbdbd;
+
+}
+
+
+
+</style>
+
+
+</body>
+
+</html>
+
+
