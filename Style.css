@@ -191,3 +191,33 @@ height:52px;
 }
 
 }
+#offers{
+    padding:100px 20px;
+    text-align:center;
+    background:#050505;
+}
+
+#offers h2{
+    font-size:45px;
+    letter-spacing:3px;
+    margin-bottom:15px;
+    color:white;
+}
+
+#offers p{
+    font-size:20px;
+    color:#ff6b00;
+    margin-bottom:40px;
+}
+
+#offers img{
+    width:350px;
+    max-width:90%;
+    border-radius:25px;
+    transition:0.5s;
+    box-shadow:0 0 30px rgba(255,107,0,0.4);
+}
+
+#offers img:hover{
+    transform:scale(1.05);
+}
