@@ -570,3 +570,225 @@ height:300px;
 }
 
 }
+/* ===== PRODUCT PAGE ===== */
+
+.product-page{
+
+    min-height:100vh;
+
+    padding:150px 8% 80px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+    background:#050505;
+
+}
+
+
+
+/* IMAGE */
+
+.product-image{
+
+    position:relative;
+
+}
+
+
+.product-image img{
+
+    width:100%;
+
+    max-width:600px;
+
+    border-radius:25px;
+
+    transition:.5s;
+
+}
+
+
+.product-image img:hover{
+
+    transform:scale(1.03);
+
+}
+
+
+
+/* DISCOUNT */
+
+.product-image span{
+
+    position:absolute;
+
+    top:25px;
+
+    left:25px;
+
+    background:#ff7a00;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    z-index:2;
+
+}
+
+
+
+/* INFO */
+
+.product-info h1{
+
+    font-size:60px;
+
+    letter-spacing:5px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.price{
+
+    font-size:30px;
+
+    color:#ff7a00;
+
+    margin-bottom:30px;
+
+}
+
+
+.price del{
+
+    color:#777;
+
+    margin-right:15px;
+
+}
+
+
+
+.description{
+
+    color:#bbb;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+    margin-bottom:40px;
+
+}
+
+
+
+/* SIZES */
+
+.sizes{
+
+    display:flex;
+
+    gap:15px;
+
+    margin:25px 0 40px;
+
+}
+
+
+.sizes button{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    border:1px solid #555;
+
+    background:transparent;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+.sizes button:hover{
+
+    background:#ff7a00;
+
+    border-color:#ff7a00;
+
+}
+
+
+
+/* ORDER BUTTON */
+
+.order{
+
+    display:inline-block;
+
+    background:#ff7a00;
+
+    color:white;
+
+    padding:18px 55px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+
+.order:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.product-page{
+
+grid-template-columns:1fr;
+
+padding-top:120px;
+
+}
+
+
+.product-info h1{
+
+font-size:40px;
+
+}
+
+}
