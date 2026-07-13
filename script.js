@@ -80,3 +80,18 @@ window.addEventListener("load", ()=>{
 
 
 });
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+let intro = document.getElementById("intro");
+
+if(intro){
+
+intro.style.display="none";
+
+}
+
+},2500);
+
+});
