@@ -1433,3 +1433,96 @@ font-size:22px;
 
 
 }
+/* ===== INTRO ANIMATION ===== */
+
+
+.intro{
+
+position:fixed;
+
+inset:0;
+
+background:#050505;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:10000;
+
+animation:introHide 2.5s forwards;
+
+}
+
+
+
+.intro img{
+
+width:220px;
+
+animation:logoMove 2s ease;
+
+}
+
+
+
+@keyframes logoMove{
+
+0%{
+
+opacity:0;
+
+transform:scale(.8);
+
+}
+
+
+50%{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+
+100%{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+
+
+@keyframes introHide{
+
+
+0%{
+
+opacity:1;
+
+}
+
+
+80%{
+
+opacity:1;
+
+}
+
+
+100%{
+
+opacity:0;
+
+visibility:hidden;
+
+}
+
+}
