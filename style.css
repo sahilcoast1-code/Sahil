@@ -1006,3 +1006,102 @@ letter-spacing:3px;
 }
 
 }
+/* ===== ABOUT PAGE ===== */
+
+.about-page{
+
+    min-height:100vh;
+
+    padding:150px 8% 80px;
+
+    background:#050505;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+
+
+.about-content{
+
+    max-width:900px;
+
+    animation:up 1.2s ease;
+
+}
+
+
+
+.about-content h1{
+
+    font-size:65px;
+
+    letter-spacing:8px;
+
+    margin-bottom:45px;
+
+}
+
+
+
+.about-content p{
+
+    color:#cfcfcf;
+
+    font-size:20px;
+
+    line-height:2;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.about-content h2{
+
+    margin-top:50px;
+
+    color:#ff7a00;
+
+    font-size:30px;
+
+    letter-spacing:4px;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:800px){
+
+.about-content h1{
+
+font-size:38px;
+
+letter-spacing:4px;
+
+}
+
+
+.about-content p{
+
+font-size:17px;
+
+}
+
+
+.about-content h2{
+
+font-size:20px;
+
+}
+
+}
