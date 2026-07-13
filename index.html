@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,58 +12,155 @@
 
 </head>
 
+
 <body>
 
-<!-- Language Screen -->
+
+<!-- LANGUAGE INTRO -->
 
 <div class="language-screen" id="languageScreen">
 
-    <img src="F301E7F9-D0C0-44EE-8F2B-51620FB9A66B.png" alt="Sahil Coast">
+<img src="F301E7F9-D0C0-44EE-8F2B-51620FB9A66B.png" alt="Sahil Coast">
 
-    <h2>Choose Your Language</h2>
 
-    <div class="languages">
+<h2 data-en="Choose Your Language"
+data-ar="اختر لغتك"
+data-he="בחר את השפה שלך">
 
-        <button onclick="setLanguage('en')">
-            🇺🇸 English
-        </button>
+Choose Your Language
 
-        <button onclick="setLanguage('ar')">
-            🇸🇦 العربية
-        </button>
+</h2>
 
-        <button onclick="setLanguage('he')">
-            🇮🇱 עברית
-        </button>
 
-    </div>
+<div class="languages">
+
+
+<button onclick="changeLanguage('en')">
+🇺🇸 English
+</button>
+
+
+<button onclick="changeLanguage('ar')">
+🇸🇦 العربية
+</button>
+
+
+<button onclick="changeLanguage('he')">
+🇮🇱 עברית
+</button>
+
 
 </div>
 
 
-<!-- Main Website -->
+</div>
+
+
+
+
+
+<!-- WEBSITE -->
+
 
 <div id="website">
 
 
+
 <header>
+
 
 <img src="F301E7F9-D0C0-44EE-8F2B-51620FB9A66B.png">
 
+
+
 <nav>
 
-<a href="#">Home</a>
-<a href="shop.html">Shop</a>
-<a href="our-world.html">Our World</a>
-<a href="feedback.html">Feedback</a>
-<a href="contact.html">Contact</a>
+
+<a href="index.html"
+data-en="Home"
+data-ar="الرئيسية"
+data-he="בית">
+
+Home
+
+</a>
+
+
+<a href="shop.html"
+data-en="Shop"
+data-ar="المتجر"
+data-he="חנות">
+
+Shop
+
+</a>
+
+
+<a href="our-world.html"
+data-en="Our World"
+data-ar="عالمنا"
+data-he="העולם שלנו">
+
+Our World
+
+</a>
+
+
+<a href="feedback.html"
+data-en="Feedback"
+data-ar="آراء العملاء"
+data-he="ביקורות">
+
+Feedback
+
+</a>
+
+
+<a href="contact.html"
+data-en="Contact"
+data-ar="تواصل"
+data-he="צור קשר">
+
+Contact
+
+</a>
+
+
 
 </nav>
+
+
+
+<div class="language-switcher">
+
+
+<button onclick="changeLanguage('en')">
+🇺🇸
+</button>
+
+
+<button onclick="changeLanguage('ar')">
+🇸🇦
+</button>
+
+
+<button onclick="changeLanguage('he')">
+🇮🇱
+</button>
+
+
+</div>
+
+
 
 </header>
 
 
+
+
+
 <section class="hero">
+
 
 
 <video autoplay muted loop playsinline>
@@ -72,27 +170,53 @@
 </video>
 
 
+
 <div class="overlay"></div>
 
 
+
 <div class="hero-content">
+
+
 
 <h1>
 SAHIL COAST
 </h1>
 
-<h2>
+
+
+<h2
+data-en="WEAR THE VIBE"
+data-ar="ارتدي الإحساس"
+data-he="לבש את האווירה">
+
 WEAR THE VIBE
+
 </h2>
 
-<p>
+
+
+<p
+data-en="Premium Streetwear Inspired By The Sea"
+data-ar="ملابس فاخرة مستوحاة من البحر"
+data-he="אופנת רחוב יוקרתית בהשראת הים">
+
 Premium Streetwear Inspired By The Sea
+
 </p>
 
 
-<a href="shop.html">
+
+
+<a href="shop.html"
+data-en="EXPLORE COLLECTION"
+data-ar="اكتشف المجموعة"
+data-he="גלה את הקולקציה">
+
 EXPLORE COLLECTION
+
 </a>
+
 
 
 </div>
@@ -101,11 +225,17 @@ EXPLORE COLLECTION
 </section>
 
 
+
 </div>
+
+
+
 
 
 <script src="script.js"></script>
 
+
 </body>
+
 
 </html>
