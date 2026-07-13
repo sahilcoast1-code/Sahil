@@ -913,3 +913,96 @@ font-size:45px;
 }
 
 }
+/* ===== FEEDBACK PAGE ===== */
+
+.feedback-page{
+
+    min-height:100vh;
+
+    padding:150px 8% 80px;
+
+    background:#050505;
+
+    text-align:center;
+
+}
+
+
+
+.feedback-banner img{
+
+    width:350px;
+
+    max-width:90%;
+
+    border-radius:25px;
+
+    margin-bottom:50px;
+
+}
+
+
+
+.feedback-page h1{
+
+    font-size:60px;
+
+    letter-spacing:7px;
+
+    margin-bottom:50px;
+
+}
+
+
+
+/* EMPTY FEEDBACK BOX */
+
+.feedback-box{
+
+    max-width:700px;
+
+    margin:auto;
+
+    padding:50px 30px;
+
+    background:#111;
+
+    border:1px solid #222;
+
+    border-radius:30px;
+
+    color:#aaa;
+
+    font-size:20px;
+
+    line-height:2;
+
+    transition:.4s;
+
+}
+
+
+
+.feedback-box:hover{
+
+    border-color:#ff7a00;
+
+    transform:translateY(-8px);
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:800px){
+
+.feedback-page h1{
+
+font-size:35px;
+
+letter-spacing:3px;
+
+}
+
+}
